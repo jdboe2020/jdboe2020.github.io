@@ -157,7 +157,6 @@
 
 	a {
 		@include vendor('transition', ('color #{_duration(transition)} ease-in-out', 'border-bottom-color #{_duration(transition)} ease-in-out'));
-		border-bottom: dotted 1px;
 		color: _palette(accent1, bg);
 		text-decoration: none;
 
@@ -190,7 +189,8 @@
 		text-transform: uppercase;
 
 		a {
-			color: inherit;
+			// color: inherit;
+			color: _palette(fg);
 			text-decoration: none;
 		}
 	}
@@ -857,9 +857,19 @@
 			float: left;
 			padding: (_size(element-margin) * 1.5) 0;
 			width: 50%;
+			a {
+				cursor: pointer;
+				margin-left: 12px;
+				margin-right: 12px;
+				margin-bottom: 10px;
+				span { 
+					font-size: 34px;
+				}
+			}
 
 			h3 {
 				margin: 0;
+				font-size: 34px;
 			}
 
 			&:nth-child(2n + 1) {
@@ -1538,7 +1548,7 @@
 						margin: _size(element-margin) 0 0 0;
 						padding: _size(element-margin) 0 0 0;
 						width: 100%;
-
+					
 						&:first-child {
 							box-shadow: none !important;
 							margin-top: 0;
