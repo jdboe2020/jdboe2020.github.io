@@ -2381,6 +2381,9 @@ button:disabled,
   background: rgba(255, 255, 255, 0.95);
   box-shadow: inset 0 1px 0 0 #dddddd;
 }
+#footer .container h4 {
+  text-transform: lowercase;
+}
 #footer footer {
   bottom: 2em;
   color: rgba(255, 255, 255, 0.5);
@@ -2506,6 +2509,9 @@ button:disabled,
   /* Footer */
   #footer .container {
     padding: 3em 1.5em 1em 1.5em;
+  }
+  #footer .container h4 {
+    text-transform: lowercase;
   }
 }
 /* XSmall */
