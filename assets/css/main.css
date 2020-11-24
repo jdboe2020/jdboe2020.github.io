@@ -1932,7 +1932,7 @@ ul.icons-grid li a span {
 }
 ul.icons-grid li h3 {
   margin: 0;
-  font-size: 34px;
+  font-size: 24px;
 }
 ul.icons-grid li:nth-child(2n+1) {
   box-shadow: inset -1px 0 0 0 #dddddd, 1px 0 0 0 #dddddd;
@@ -2509,9 +2509,6 @@ button:disabled,
   /* Footer */
   #footer .container {
     padding: 3em 1.5em 1em 1.5em;
-  }
-  #footer .container h4 {
-    text-transform: lowercase;
   }
 }
 /* XSmall */
